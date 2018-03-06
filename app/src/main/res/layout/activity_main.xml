@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mwg.plantandzombie.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/ivBackgeound"
+        android:layout_width="818dp"
+        android:layout_height="match_parent"
+        android:layout_x="0dp"
+        android:layout_y="0dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/bk1"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <ImageView
+        android:id="@+id/ivSun"
+        android:layout_width="61dp"
+        android:layout_height="59dp"
+        android:layout_x="11dp"
+        android:layout_y="0dp"
+        app:srcCompat="@mipmap/sunbank"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="29dp" />
+
+    <ImageView
+        android:id="@+id/ivPlantBar"
+        android:layout_width="265dp"
+        android:layout_height="57dp"
+        android:layout_x="71dp"
+        android:layout_y="0dp"
+        app:srcCompat="@mipmap/seedbank"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/ivSunCount"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="38dp"
+        android:text="150"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="30dp"
+        tools:text="150" />
+
+    <ImageView
+        android:id="@+id/ivPlantRemove"
+        android:layout_width="58dp"
+        android:layout_height="56dp"
+        android:layout_x="330dp"
+        android:layout_y="2dp"
+        app:srcCompat="@mipmap/shovel_bk"
+        tools:layout_editor_absoluteX="373dp"
+        tools:layout_editor_absoluteY="18dp" />
+
+    <ImageView
+        android:id="@+id/plant1"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+        android:layout_x="80dp"
+        android:layout_y="8dp"
+        app:srcCompat="@mipmap/shovel_bk"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <ImageView
+        android:id="@+id/plant2"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+        android:layout_x="120dp"
+        android:layout_y="8dp"
+        app:srcCompat="@mipmap/shovel_bk"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <ImageView
+        android:id="@+id/plant3"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+        android:layout_x="160dp"
+        android:layout_y="8dp"
+        app:srcCompat="@mipmap/shovel_bk"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <ImageView
+        android:id="@+id/plant4"
+        android:layout_width="48dp"
+        android:layout_height="41dp"
+        android:layout_x="200dp"
+        android:layout_y="8dp"
+        app:srcCompat="@mipmap/shovel_bk"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="469dp"
+        android:layout_height="291dp"
+        android:layout_x="78dp"
+        android:layout_y="50dp"
+        android:columnCount="9"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="60dp">
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="52dp"
+                android:layout_height="58dp">
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="52dp"
+            android:layout_height="58dp">
+
+        </FrameLayout>
+
+    </GridLayout>
+
+</AbsoluteLayout>
