@@ -81,10 +81,12 @@ public class MainActivity extends AppCompatActivity implements Plant.MyCallBack 
                         //移动僵尸
                         for (Zomb zomb : zombs) {
                             zomb.setX(zomb.getX() - zomb.speed);
+                            // 为优化内存起见，如果僵尸移除屏幕，则在界面和内存中将其删除
                             if (zomb.getX() < -zomb.getWidth()) {
                                 activityMain.removeView(zomb);
                                 zombs.remove(zomb);
 
+                                //增强for循环中，如果循环体发生改变，则必须break
                                 break;
                             }
                             //遍历植物，判断植物的矩形和僵尸的矩形是否交叉，如果交叉，则僵尸吃植物
@@ -98,7 +100,6 @@ public class MainActivity extends AppCompatActivity implements Plant.MyCallBack 
                                 }
                             }
                         }
-
 
                         //让所有射手类的植物开始发射
                         for (Plant plant : plants) {

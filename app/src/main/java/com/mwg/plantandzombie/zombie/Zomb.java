@@ -62,7 +62,7 @@ public class Zomb extends android.support.v7.widget.AppCompatImageView {
                         plant.deadAction();
                     }
                     t.cancel();
-//                    cancel();//取消Timer即可，TimerTask可以不加（取消Timer即也取消了TimerTask）
+                    cancel();//取消Timer即可，TimerTask可以不加（取消Timer即也取消了TimerTask）
                 }
             }
         };
